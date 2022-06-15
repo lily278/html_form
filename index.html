@@ -9,7 +9,10 @@
 
     <h1>Company Inc.</h1>
     <h2>For all your incorporated company needs</h2>
-
+<form action="index.html" method="POST"></form>
+<label for="fullname">Full Name</label>
+<input type="text" name="fullName" id="fullname" placeholder="Enter name">
+</form>
     <!-- First, create a form tag where our inputs will be nested -->
 
 
@@ -17,30 +20,44 @@
 
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
       <!-- Include the place holder text "Enter Name" and make this input required -->
-
-
+<br>
+<br>
+<label for="email">Email</label>
+<input type="text" email="email" id="email" placeholder="Enter email">
       <!-- Add a label for 'email'-->
 
       <!-- Add a email input with the id and name attributes set to 'email' -->
       <!-- Include the place holder text "Enter Email" and make this input required -->
-
+<br>
+<br>
+<label for="phone">Phone</label>
+<input type="phone" phone="phone" id="phone" placeholder="Enter Telephone (optional)"
 
       <!-- Add a label for 'phone'-->
 
       <!-- Add a telephone input with the id and name attributes set to 'phone' -->
       <!-- Include the place holder text "Enter Telephone (optional)" -->
-
-
+<br>
+<br>
+<label for="Message">Leave you message here:</label>
+<br>     
       <!-- Add a label for 'message'-->
-
+<textarea placeholder="Enter Message..." name="message" id="message" rows="5" col="80"></textarea>
       <!-- Add a textarea tag with the id and name attributes set to 'message' -->
       <!-- Include the place holder text "Enter Message" -->
-
-
+<br>
+<br>
+<label for="Comment">How did you hear about me:</label>
+    <div>
+        <label for="website">Website</label>
+        <input type="radio" name="website" id="website">
+        <label for="Facebook">Facebook</label>
+        <input type="radio" name="Facebook" id="Facebook">
+    </div>
       <!-- Add a checkbox input with the id set to 'checkbox' -->
 
-
-
+<br>
+      <input type="submit" value="Submit">
       <!-- Add an input with the type set to 'submit' -->
 
     
